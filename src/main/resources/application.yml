@@ -1,12 +1,1 @@
-spring:
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: studyfarm20@gmail.com
-    password: gfpoeucykyijiqko
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
+
