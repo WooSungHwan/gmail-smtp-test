@@ -20,7 +20,8 @@ public class MailController {
     @PostMapping("/mail")
     public void execMail(MailDto mailDto) {
         long start = System.currentTimeMillis();
-        mailService.mailSend(mailDto);
+        // mailService.mailSend(mailDto);
+        mailService.sendEmail(mailDto);
         System.out.println(System.currentTimeMillis() - start);
     }
 }
